@@ -38,9 +38,13 @@ bot.on("message", async message => {
         return message.channel.send("hey");
 
     }
+    if( command === `${prefix}mark`){
+
+        return message.channel.send("hey");
+
+    }
 
 });
-
 
 
 bot.login(process.env.token);
