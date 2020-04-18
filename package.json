@@ -1,0 +1,21 @@
+{
+  "name": "beenpatongs",
+  "version": "1.0.0",
+  "description": "beenpatongs bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "Skeeper",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
